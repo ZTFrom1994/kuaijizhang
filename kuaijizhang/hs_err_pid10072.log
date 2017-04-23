@@ -1,0 +1,130 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=10072, tid=10528
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_43-b01
+# Java VM: Java HotSpot(TM) Client VM (20.14-b01 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02099000):  JavaThread "Unknown thread" [_thread_in_vm, id=10528, stack(0x00490000,0x004e0000)]
+
+Stack: [0x00490000,0x004e0000],  sp=0x004df86c,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x13490a]
+V  [jvm.dll+0x12f3fb]
+V  [jvm.dll+0x1676e]
+V  [jvm.dll+0x17faf]
+V  [jvm.dll+0x27565]
+V  [jvm.dll+0x27da6]
+V  [jvm.dll+0x28155]
+V  [jvm.dll+0x281e9]
+V  [jvm.dll+0x282ac]
+V  [jvm.dll+0x2832a]
+V  [jvm.dll+0x2840d]
+V  [jvm.dll+0x286d9]
+V  [jvm.dll+0x6cdd3]
+V  [jvm.dll+0x6d1ac]
+V  [jvm.dll+0xfa79c]
+V  [jvm.dll+0x1190eb]
+V  [jvm.dll+0x9f4e0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8624]
+C  [KERNEL32.DLL+0x1919f]  BaseThreadInitThunk+0xe
+C  [ntdll.dll+0x5ab8f]  RtlInitializeExceptionChain+0x8f
+C  [ntdll.dll+0x5ab5a]  RtlInitializeExceptionChain+0x5a
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x02099000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10528, stack(0x00490000,0x004e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	D:\java\bin\javaw.exe
+0x77be0000 - 0x77d4f000 	C:\Windows\SYSTEM32\ntdll.dll
+0x77960000 - 0x77aa0000 	C:\Windows\SYSTEM32\KERNEL32.DLL
+0x75580000 - 0x75657000 	C:\Windows\SYSTEM32\KERNELBASE.dll
+0x6c450000 - 0x6c4e9000 	C:\Windows\system32\apphelp.dll
+0x5ccc0000 - 0x5cf19000 	C:\Windows\AppPatch\AcGenral.DLL
+0x77690000 - 0x7774e000 	C:\Windows\SYSTEM32\msvcrt.dll
+0x778b0000 - 0x778f1000 	C:\Windows\SYSTEM32\sechost.dll
+0x75420000 - 0x7543d000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x76c40000 - 0x76c81000 	C:\Windows\SYSTEM32\SHLWAPI.dll
+0x6e8c0000 - 0x6e99b000 	C:\Windows\SYSTEM32\UxTheme.dll
+0x77750000 - 0x778a3000 	C:\Windows\SYSTEM32\USER32.dll
+0x76b30000 - 0x76c3f000 	C:\Windows\SYSTEM32\GDI32.dll
+0x74eb0000 - 0x74ed0000 	C:\Windows\SYSTEM32\WINMM.dll
+0x74dd0000 - 0x74de2000 	C:\Windows\SYSTEM32\samcli.dll
+0x77490000 - 0x775b9000 	C:\Windows\SYSTEM32\ole32.dll
+0x76f60000 - 0x76ff5000 	C:\Windows\SYSTEM32\OLEAUT32.dll
+0x6ccd0000 - 0x6cce5000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x753a0000 - 0x753a8000 	C:\Windows\SYSTEM32\VERSION.dll
+0x75670000 - 0x7692c000 	C:\Windows\SYSTEM32\SHELL32.dll
+0x75370000 - 0x75389000 	C:\Windows\SYSTEM32\USERENV.dll
+0x6cea0000 - 0x6ceb8000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x73f80000 - 0x740cb000 	C:\Windows\SYSTEM32\urlmon.dll
+0x75500000 - 0x7557c000 	C:\Windows\SYSTEM32\ADVAPI32.dll
+0x6c9d0000 - 0x6ca2e000 	C:\Windows\SYSTEM32\WINSPOOL.DRV
+0x724d0000 - 0x724e4000 	C:\Windows\SYSTEM32\MPR.dll
+0x76e10000 - 0x76eca000 	C:\Windows\SYSTEM32\RPCRT4.dll
+0x75410000 - 0x75419000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x76c90000 - 0x76e0d000 	C:\Windows\SYSTEM32\combase.dll
+0x74e20000 - 0x74e40000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x75360000 - 0x7536e000 	C:\Windows\SYSTEM32\profapi.dll
+0x73870000 - 0x73aa2000 	C:\Windows\SYSTEM32\iertutil.dll
+0x73660000 - 0x7386d000 	C:\Windows\SYSTEM32\WININET.dll
+0x753b0000 - 0x75404000 	C:\Windows\SYSTEM32\bcryptPrimitives.dll
+0x77650000 - 0x7768a000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x74e00000 - 0x74e1f000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x75190000 - 0x75206000 	C:\Windows\SYSTEM32\SHCORE.DLL
+0x76b00000 - 0x76b25000 	C:\Windows\system32\IMM32.DLL
+0x77370000 - 0x77482000 	C:\Windows\SYSTEM32\MSCTF.dll
+0x7c340000 - 0x7c396000 	D:\java\jre\bin\msvcr71.dll
+0x6d8c0000 - 0x6db70000 	D:\java\jre\bin\client\jvm.dll
+0x6d870000 - 0x6d87c000 	D:\java\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	D:\java\jre\bin\java.dll
+0x6d8b0000 - 0x6d8bf000 	D:\java\jre\bin\zip.dll
+0x75660000 - 0x75666000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:F:\资料\安卓\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar 
+java_command: org.itst.excel.SaveToExcel
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\java
+CLASSPATH= .;D:\java\lib\dt.jar;D:\java\lib\tools.jar;
+PATH=D:/java/bin/../jre/bin/client;D:/java/bin/../jre/bin;D:/java/bin/../jre/lib/i386;D:\java\bin;D:\java\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\资料\安卓\adt-bundle-windows-x86_64-20131030\sdk\tools;D:\matlab2015a\runtime\win64;D:\matlab2015a\bin;D:\matlab2015a\polyspace\bin;f:\quarts\quartus\bin;C:\Program Files (x86)\AMDdriver\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\ssh;D:\eclipse;
+USERNAME=Z-PC
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 4085720k(1023344k free), swap 4675544k(666124k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.14-b01) for windows-x86 JRE (1.6.0_43-b01), built on Mar  1 2013 02:51:23 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Tue Jun 14 14:32:22 2016
+elapsed time: 0 seconds
+

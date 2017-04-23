@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="themecolor">#73D39C</color>
+    <color name="white">#FFFFFF</color>
+ <!-- 白色 -->
+
+    <color name="black">#000000</color>
+ <!-- 黑色 -->
+    <color name="grey">#E0E0E0</color>
+    <color name="deepgrey">#242727</color>
+    <color name="blue">#2A3AFF</color>
+ <!-- 灰色 -->
+    <color name="red">#E80D0F</color>
+    <color name="green">#FF3BBD79</color>
+    <color name="font_black_content">#222222</color>
+    <color name="stand_bg">#fff6f6f6</color>
+    <color name="divide">#ffe4e4e4</color>
+    <color name="white_pressed">#ffd5d5d5</color>
+    <color name="font_black_6">#ff666666</color>
+    <color name="font_gray">#999999</color>
+
+</resources>

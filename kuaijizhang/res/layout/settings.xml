@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+     >
+    <!-- 消息设置  添加标签   导出数据  赞助一下 应用推荐 -->
+	<!--  
+    	<TextView
+    	    android:id="@+id/tx_settings_notification_setting"
+    	    android:layout_marginLeft="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:layout_gravity="center_vertical"
+            android:text="消息设置"
+            android:textSize="20dp" />
+	
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/grey" />
+           -->
+        <TextView
+            android:id="@+id/tx_settings_add_flags"
+    	    android:layout_marginLeft="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:layout_gravity="center_vertical"
+            android:text="@string/addFlags"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/tx_settings_data_output"
+    	    android:layout_marginLeft="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:layout_gravity="center_vertical"
+            android:text="@string/exportData"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/tx_settings_pay_me"
+    	    android:layout_marginLeft="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:layout_gravity="center_vertical"
+            android:text="@string/sponsor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/grey" />
+    
+</LinearLayout>
